@@ -1,0 +1,44 @@
+# YOLO model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.pb
+
+# Training outputs
+runs/
+wandb/
+
+# Datasets
+datasets/
+data/
+*.zip
+*.tar
+*.tar.gz
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
